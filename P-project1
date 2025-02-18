@@ -1,1 +1,17 @@
-//This is my first project on this GitHub account!
+#MAKING A SIMPLE QUIZ GAME FOR DEMO USING PYTHON. 
+print("WELCOME TO QUIZ GAME!")
+playing = input("Do you want to play? ")
+
+if playing.lower() != "yes":
+    print("Let's play next time then!")
+    quit()
+
+else:
+   print("Okay! let's play:")
+   answer = input("What is the most widely used programming language? ")
+
+    # This converts both the user's input and the correct answer to lowercase for case-insensitive comparison
+if answer.lower() == "javascript":
+    print("Correct!")
+else:
+    print("Incorrect.")
